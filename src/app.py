@@ -13,7 +13,7 @@ app = Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
-    html.H1("Analytics Dashboard of Dallas Animal Shelter (Dash Plotly)", style={"textAlign":"center"}),
+    html.H1("(Dash Plotly)", style={"textAlign":"center"}),
     html.Hr(),
     html.P("Choose animal of interest:"),
     html.Div(html.Div([
